@@ -1,7 +1,7 @@
 # ASEAN-BTE-AmenuV3
 ASEAN BTE amenu V3
 
-<h1>Deppendieces </h1>
+<h2>Deppendieces </h2>
 PlaceholderAPI-2.10.9
 EssentialsX-2.18.2.0
 Command panels 3.11.0.0
