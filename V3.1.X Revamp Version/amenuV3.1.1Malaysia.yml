@@ -1,0 +1,1270 @@
+panels: 
+  #Amenu V3.1.1My
+  #Malaysia ver
+  #THis is for testing
+  # Phtas is not called phats but called pac
+  # 
+  #Code Bassed on code writen by IOnly_ (Amenu V1 and V2)
+  #Version 3.1.x code belongs to StoneMc
+  #Code is open source feel free to modify to your own use
+  #Stonks stonks stonks stonks
+  amenu: 
+    #main Amenu panel
+    perm: default
+    rows: '6'
+    title: '&f&lBTE &9&lAMENU &e&lBETA &e&lBETA &e&lBETA'
+    command: amenu
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:
+      '10':
+        material: COMPASS
+        name: '&6&lServer Menu'
+        lore:
+        - '&2&l-----SERVER INFORMATION-----'
+        - '&basean.my.to'
+        - '&bOnline : %cp-online-players%'
+        - '&bPING : %player_ping%'
+        - '&bWORLD : %player_world%'
+        - '&bPlayer Max : 20'
+        - '&bServer Location : Kuching, Malaysia'
+       
+        - '&2&l---------------------------'
+        - '&d>>> Click Here For Manage Server <<<'
+        redirect:
+          panel: amenu_svmn
+          force: false
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMxYTk5NGYyMDg0OWRjM2UzMWYwMWNkMzIzZTg5N2NhYTA3NWIwMTZiZDlmODVmZDg0ZjdlMGFmZTAxNGM2NSJ9fX0=
+        name: '&c&cAssociation &fof &9Southeast &eAsian &8Nations'
+        lore:
+        - '&d>>> Click Here For Information <<<'
+        redirect:
+          panel: amenu_inf
+          force: false
+      '16':
+        material: cps= self
+        name: '&c&9>> %cp-player-name% << &8Charactor'
+        lore:
+        - '&2Display Name :&2&l %cp-player-displayname%'
+        - '&8(aka. %cp-player-name%)'
+        - '&8Ranks : %luckperms_prefix%'
+      '28':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3NzlkZWUyYTZiMTk4OTcwYTEwZTcxYjJiNDc0ZjQ0N2RmYmUyZjEyMGZmMjIzN2M0N2ZkMTY3Y2Q0ZjFhNyJ9fX0=
+        name: '&9>> Server Warps <<'
+        lore:
+        - '&8&l---------------'
+        - '&b(Spawn, Creative, Trees Schems, WE Tutorial)'
+        redirect:
+          panel: amenu_svwarp
+          force: false
+
+      '30':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&c>> Th&faila&9nd <<'
+        lore:
+          - '&7(Warps)'
+        redirect:
+          panel: amenu_th
+          force: false
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1N2I5ZDdkZDA0MTY5NDc4Y2ZkYjhkMGI2ZmQwYjhjODJiNjU2NmJiMjgzNzFlZTlhN2M3YzE2NzFhZDBiYiJ9fX0=
+        name: '&c>> Viet&enam <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_vn
+          force: false
+      '32':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&c>> Ma&flay&9sia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_My
+          force: false
+      '34':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyODViZWEzYzhhMDJkYjEzOWZhOGVjNWNjNTg4NjE1YTk4NTUwNzI1ZjhlNjc2YzkzZmRiYzMzYjZiIn19fQ==
+        name: '&2>> Blocks / Item Panel <<'
+        lore:
+        - '&8&l-------------------'
+        - '&7- To Get a specific block or item'
+        - '&7- EpicHeads included'
+        - '&7- Custom Heads / Banner Menu'
+        redirect:
+          panel: amenu_bip
+          force: false
+      '39':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&f>> Sing&capore <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_sg
+          force: false
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlNjNmY2FhMDIwM2Y4MDQ2ZmI5NjM3NWQwNzlhNWMwOWI0MTYxZDAxMTlkNzE5NDU2NmU2ODljYWIxOGY2OCJ9fX0=
+        name: '&c>> Indo&fnesia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_id
+          force: false
+      '41':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
+        name: '&c>> Cam&9bo&fdia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_kh
+          force: false
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '21':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '23':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '29':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1OWQ1OWViNGU1OWMzMWVlY2Y5ZWNlMmY5Y2YzOTM0ZTQ1YzBlYzQ3NmZjODZiZmFlZjhlYTkxM2VhNzEwIn19fQ==
+        commands:
+        - amenubruh
+        name: '&e&lBRUH BUTTON'
+ ###############Starting the countries here##############
+  amenu_My:
+    perm: default
+    rows: '6'
+    title: 'Malaysia'
+    command: amenu_my
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: 'Malaysia'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': ## #Central Malaysia
+        material: CONCRETE
+        ID: 0
+        name: '&bCentral Malaysia'
+        redirect:
+        lore:
+        - Coming soon
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': ##Northern Malaysia:
+        material: CONCRETE
+        ID: 0
+        name: '&bNorthern Malaysia'
+        lore:
+        - Coming soon
+      '32': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33': #Southern Malaysia
+        material: CONCRETE
+        ID: 0
+        name: '&bSouthern Malaysia'
+        lore:
+        - Coming soon
+      '34': ##
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39': #Eastern My
+        material: CONCRETE
+        ID: 0
+        name: '&eEastern Malaysia'
+        redirect:
+          panel: amenu_my_east
+          force: false
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41': #western My
+        material: CONCRETE
+        ID: 0
+        name: '&eWestern Malaysia'
+        redirect:
+          panel: amenu_my_west
+          force: false
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+  amenu_my_west:
+    perm: default
+    rows: '6'
+    title: 'Western Malaysia'
+    command: amenu_my_west
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cWestern Malaysia'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': #-Western Malaysia+Kuala Lumpur• Kuala Lumpur: my,kl  
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bKuala Lumpur'
+        lore:
+        command:
+        - warp  my,kl 
+      '30':  
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': #-Western Malaysia + Perlis
+        material: CONCRETE
+        ID: 0
+        name: 'Perlis'
+        lore: 
+        - 'Coming soon'
+      '32':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33': ## -Western Malaysia + Kedah
+        material: CONCRETE
+        ID: 0
+        name: '&bKedah'
+        lore: 
+        - 'Coming soon'
+      '34': ##  Penang
+        material: CONCRETE
+        ID: 0
+        name: '&bPenang'
+        redirect:
+          panel: amenu_my_west_penang
+          force: false  
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37': # Kelantan  
+        material: CONCRETE
+        ID: 0
+        name: '&bKedah'
+        lore: 
+        - "idk"
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: CONCRETE
+        ID: 0 #-Western Malaysia+Putrajaya• Putrajaya: my,Putrajaya
+        name: '&bPutrajaya'
+        command:
+        - warp my,Putrajaya
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41': #Selangor •
+        material: CONCRETE
+        ID: 0
+        name: '&bSelangor'
+        redirect:
+          panel: amenu_my_west_Selangor
+          force: false  
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_My
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+  amenu_my_east:
+    perm: default
+    rows: '6'
+    title: 'Eastern Malaysia'
+    command: amenu_my_east
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cEastern Malaysia'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': #Sabah
+        material: CONCRETE
+        ID: 0
+        name: '&bSabah'
+        redirect:
+          panel: amenu_my_east_Sabah
+          force: false 
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': #Sarwak
+        material: CONCRETE
+        ID: 0
+        name: '&bSarwak'
+        redirect:
+          panel: amenu_my_east_Sarawak
+          force: false 
+      '32':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '34':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_My
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+#EAST CITY PANELS 
+  amenu_my_east_Sabah: 
+    perm: default
+    rows: '3'
+    title: 'Malaysia - East - Sabah'
+    command: amenu_my_east_Sabah 
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMalaysia'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': #Mt. Kinabalu: my,kinabalu
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bMt. Kinabalu'
+        lore:
+        command:
+        - warp  my,kinabalu
+      '10':
+        material: CONCRETE
+        ID: 0
+      '11':
+        material: CONCRETE
+        ID: 0
+
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_my_east
+          force: false
+  amenu_my_east_Sarawak: 
+    perm: default
+    rows: '3'
+    title: 'Malaysia - East - Sarwak'
+    command: amenu_my_east_Sarawak 
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMalaysia'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: CONCRETE
+        ID: 0
+      '10': #-Eastern Malaysia+Sarawak• Kuching: my,kuching
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bKuching'
+        lore:
+        command:
+        - warp  my,kuching
+      '11': #-Eastern Malaysia+Sarawak • Miri: my,miri
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bMiri'
+        lore:
+        command:
+        - warp  my,miri
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_my_east
+          force: false
+#WEST
+#-Western Malyasia+perak stonk it pog
+  amenu_my_west_Perak: 
+    perm: default
+    rows: '3'
+    title: 'Malaysia - West - Perak'
+    command: amenu_my_east_Perak
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMalaysia'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': #-Western Malyasia+perak•Ipoh: my,ipoh
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bIpoh'
+        lore:
+        command:
+        - warp my,ipoh
+      '10':
+        material: CONCRETE
+        ID: 0
+      '11':
+        material: CONCRETE
+        ID: 0
+
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_my_east
+          force: false
+# -Western Malaysia +Penang 
+  amenu_my_west_penang:
+    perm: default
+    rows: '3'
+    title: 'Malaysia - West - Perak'
+    command: amenu_my_east_Perak
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item: 
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMalaysia'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': #-Western Malaysia +Penang Komtar: my,penang,komtar
+        material: CONCRETE
+        ID: 7
+        name: '&bKomtar'
+        lore:
+        command:
+        - warp my,penang,komtar
+      '10':
+        material: CONCRETE
+        ID: 0
+      '11': # Western Malaysia +Penang • Khoo Kongsi: my,penang,khookongs
+        material: CONCRETE
+        ID: 7
+        name: '&bKhoo Kongsi'
+        lore:
+        command:
+        - warp  my,penang,khookongs
+
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_my_east
+          force: false
+#
+#-Western Malaysia +Selangor
+  amenu_my_west_Selangor:
+    perm: default
+    rows: '3'
+    title: 'Malaysia - West - Selangor'
+    command: amenu_my_east_Perak
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item: 
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cMalaysia'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': #-Western Malaysia +Selangor • KLIA: my,selangor,klia
+        material: CONCRETE
+        ID: 7
+        name: '&bKLIA'
+        lore:
+        command:
+        - warp my,selangor,klia
+      '10':
+        material: CONCRETE
+        ID: 0
+      '11': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_my_east
+          force: false
