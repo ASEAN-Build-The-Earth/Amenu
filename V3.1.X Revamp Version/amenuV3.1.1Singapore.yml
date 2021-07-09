@@ -1,0 +1,1253 @@
+panels: 
+  #Amenu V3.1.1Sg
+  #Singapore ver
+  #THis is for testing
+  # Phtas is not called phats but called pac
+  # 
+  #Code Bassed on code writen by IOnly_ (Amenu V1 and V2)
+  #Version 3.1.x code belongs to StoneMc
+  #Code is open source feel free to modify to your own use
+  #Stonks stonks stonks stonks
+  amenu: 
+    #main Amenu panel
+    perm: default
+    rows: '6'
+    title: '&f&lBTE &9&lAMENU &e&lBETA &e&lBETA &e&lBETA'
+    command: amenu
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:
+      '10':
+        material: COMPASS
+        name: '&6&lServer Menu'
+        lore:
+        - '&2&l-----SERVER INFORMATION-----'
+        - '&basean.my.to'
+        - '&bOnline : %cp-online-players%'
+        - '&bPING : %player_ping%'
+        - '&bWORLD : %player_world%'
+        - '&bPlayer Max : 20'
+        - '&bServer Location : Kuching, Malaysia'
+       
+        - '&2&l---------------------------'
+        - '&d>>> Click Here For Manage Server <<<'
+        redirect:
+          panel: amenu_svmn
+          force: false
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMxYTk5NGYyMDg0OWRjM2UzMWYwMWNkMzIzZTg5N2NhYTA3NWIwMTZiZDlmODVmZDg0ZjdlMGFmZTAxNGM2NSJ9fX0=
+        name: '&c&cAssociation &fof &9SouthEast &eAsian &8Nations'
+        lore:
+        - '&d>>> Click Here For Information <<<'
+        redirect:
+          panel: amenu_inf
+          force: false
+      '16':
+        material: cps= self
+        name: '&c&9>> %cp-player-name% << &8Charactor'
+        lore:
+        - '&2Display Name :&2&l %cp-player-displayname%'
+        - '&8(aka. %cp-player-name%)'
+        - '&8Ranks : %luckperms_prefix%'
+      '28':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3NzlkZWUyYTZiMTk4OTcwYTEwZTcxYjJiNDc0ZjQ0N2RmYmUyZjEyMGZmMjIzN2M0N2ZkMTY3Y2Q0ZjFhNyJ9fX0=
+        name: '&9>> Server Warps <<'
+        lore:
+        - '&8&l---------------'
+        - '&b(Spawn, Creative, Trees Schems, WE Tutorial)'
+        redirect:
+          panel: amenu_svwarp
+          force: false
+
+      '30':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&c>> Th&faila&9nd <<'
+        lore:
+          - '&7(Warps)'
+        redirect:
+          panel: amenu_th
+          force: false
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1N2I5ZDdkZDA0MTY5NDc4Y2ZkYjhkMGI2ZmQwYjhjODJiNjU2NmJiMjgzNzFlZTlhN2M3YzE2NzFhZDBiYiJ9fX0=
+        name: '&c>> Viet&enam <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_vn
+          force: false
+      '32':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&c>> Ma&flay&9sia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_My
+          force: false
+      '34':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyODViZWEzYzhhMDJkYjEzOWZhOGVjNWNjNTg4NjE1YTk4NTUwNzI1ZjhlNjc2YzkzZmRiYzMzYjZiIn19fQ==
+        name: '&2>> Blocks / Item Panel <<'
+        lore:
+        - '&8&l-------------------'
+        - '&7- To Get a specific block or item'
+        - '&7- EpicHeads included'
+        - '&7- Custom Heads / Banner Menu'
+        redirect:
+          panel: amenu_bip
+          force: false
+      '39':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&f>> Sing&capore <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_sg
+          force: false
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlNjNmY2FhMDIwM2Y4MDQ2ZmI5NjM3NWQwNzlhNWMwOWI0MTYxZDAxMTlkNzE5NDU2NmU2ODljYWIxOGY2OCJ9fX0=
+        name: '&c>> Indo&fnesia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_id
+          force: false
+      '41':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
+        name: '&c>> Cam&9bo&fdia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_kh
+          force: false
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '21':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '23':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '29':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1OWQ1OWViNGU1OWMzMWVlY2Y5ZWNlMmY5Y2YzOTM0ZTQ1YzBlYzQ3NmZjODZiZmFlZjhlYTkxM2VhNzEwIn19fQ==
+        commands:
+        - amenubruh
+        name: '&e&lBRUH BUTTON'
+ ###############Starting the countries here##############
+  amenu_Sg:
+    perm: default
+    rows: '6'
+    title: 'Singapore'
+    command: amenu_sg
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: 'Singapore'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': ## #Central Singapore
+        material: CONCRETE
+        ID: 0
+        name: '&bCentral Singapore'
+        redirect:
+          panel: amenu_sg_Central
+          force: false
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': ##Northern Singapore:
+        material: CONCRETE
+        ID: 0
+        name: '&bNorthern Singapore'
+        redirect:
+          panel: amenu_sg_North
+          force: false
+      '32': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33': #Southern Singapore
+        material: CONCRETE
+        ID: 0
+        name: '&bSouthern Singapore'
+        redirect:
+          panel: amenu_sg_south
+          force: false
+      '34': ##
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39': #-Eastern Singapore+ 
+        material: CONCRETE
+        ID: 0
+        name: '&eEastern Singapore'
+        redirect:
+          panel: amenu_sg_East
+          force: false
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41': #-Western Singapore
+        material: CONCRETE
+        ID: 0
+        name: '&eWestern Singapore'
+        redirect:
+          panel: amenu_sg_West
+          force: false
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+#
+#
+#amenu_sg_East
+  amenu_sg_East:
+    perm: default
+    rows: '6'
+    title: 'Eastern Singapore'
+    command: amenu_sg_East
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cEastern Singapore'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': #-Eastern Singapore+ Changi Airport
+        material: CONCRETE
+        ID: 0
+        name: '&bChangi Airport'
+        redirect:
+          panel: amenu_sg_East_ChangiAirport
+          force: false 
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': #Sarwak
+        material: CONCRETE
+        ID: 0
+        name: '&bSarwak'
+        redirect:
+          panel: amenu_my_East_Sarawak
+          force: false 
+      '32':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '34':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_My
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+#amenu_sg_Central
+  amenu_sg_Central:
+    perm: default
+    rows: '6'
+    title: 'Central Singapore'
+    command: amenu_sg_Central
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cCentral Singapore'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': #-Central Singapore+Marina Bay Sands
+        material: CONCRETE
+        ID: 0
+        name: '&bMarina Bay Sands'
+        redirect:
+          panel: amenu_sg_Central_MBS
+          force: false 
+      '30':   #Central Business District: sg,cbd
+        material: CONCRETE
+        ID: 0
+        name: '&bCentral Business District'
+        lore:
+        command:
+        - warp sg,cbd
+      '31':  #-Central Singapore+ Chinatown: sg,chinatown
+        material: CONCRETE
+        ID: 0
+        name: '&bChinatown'
+        command:
+        - warp sg,chinatown
+      '32': #-Central Singapore+Kallang
+        material: CONCRETE
+        ID: 0
+        name: '&bKallang'
+        redirect:
+          panel: amenu_sg_Central_Kallang
+          force: false 
+      '33': #-Central Singapore+ Keppel Bay: sg,keppel-bay
+        material: CONCRETE
+        ID: 0
+        name: '&bKeppel Bay'
+      command:
+        - warp sg,keppel-bay
+      '34': #-Central Singapore + Esplanade: sg,esplanade
+        material: CONCRETE
+        ID: 0
+        name: '&bEsplanade'
+        command:
+        - warp sg,esplanade
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_My
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+#- amenu_sg_West
+  amenu_sg_West:
+    perm: default
+    rows: '6'
+    title: 'Western Singapore'
+    command:  amenu_sg_West
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cEastern Singapore'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': #--Western Singapore+ Clementi: sg,clementi,mrt
+        material: CONCRETE
+        ID: 0
+        name: '&bClementi'
+        command:
+        - warp sg,clementi,mrt
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '32':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '34':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_Sg
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+
+
+
+#
+#amenu_sg_East_ChangiAirport
+  amenu_my_East_ChangiAirport: 
+    perm: default
+    rows: '3'
+    title: 'Singapore - East - Changi Airport'
+    command: amenu_my_East_changiairport 
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cSingapore'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10': #-Eastern Singapore+ Changi Airport: sg,changiairport
+        material: STAINED_GLASS_PANE
+        ID: 7
+        name: '&bChangi Airport'
+        lore:
+        command:
+        - warp sg,changiairport
+      '11':
+        material: CONCRETE
+        ID: 0
+
+      '12':
+        material: CONCRETE
+        ID: 0
+      '13':
+        material: CONCRETE
+        ID: 0
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_sg_East
+          force: false
+#amenu_sg_Central_MBS
+  amenu_sg_Central_MBS: 
+    perm: default
+    rows: '3'
+    title: 'Singapore - Central - Marina Bay Sands'
+    command: amenu_my_Central_MBS
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cSingapore'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11': #  Gadern by the Bay: 
+        material: CONCRETE
+        ID: 0
+        name: '&bGadern by the Bay'
+        lore:
+        command:
+        - warp sg,baygarden
+      '12': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_sg_East
+          force: false
+#amenu_sg_Central_Kallang
+  amenu_sg_Central_Kallang: 
+    perm: default
+    rows: '3'
+    title: 'Singapore - Central - Kallang'
+    command: amenu_my_Central_MBS
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:   
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&cSingapore'
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11': # -Central Singapore+Kallang• MRT: sg,kallang,mrt
+        material: CONCRETE
+        ID: 0
+        name: '&bMRT'
+        lore:
+        command:
+        - warp sg,kallang,mrt
+      '12':  #-Central Singapore +Kallang • Stadium: sg,kallang,stadium
+        material: CONCRETE
+        ID: 0
+        name: '&bKallang Stadium'
+        lore:
+        command:
+        - warp sg,kallang,stadium
+      '13': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '14':
+        material: CONCRETE
+        ID: 0
+      '15':
+        material: CONCRETE
+        ID: 0
+      '16':
+        material: CONCRETE
+        ID: 0 
+      '17':
+        material: CONCRETE
+        ID: 0
+      '18':
+        material: CONCRETE
+        ID: 0 
+      '19':
+        material: CONCRETE
+        ID: 0
+      '20':
+        material: CONCRETE
+        ID: 0 
+      '21': 
+        material: CONCRETE
+        ID: 0
+      '22':
+        material: CONCRETE
+        ID: 0 
+      '23': 
+        material: CONCRETE
+        ID: 0
+      '24':
+        material: CONCRETE
+        ID: 0 
+      '25':
+        material: CONCRETE
+        ID: 0
+      '26':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_sg_East
+          force: false
