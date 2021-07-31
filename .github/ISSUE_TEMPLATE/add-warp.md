@@ -7,8 +7,8 @@ assignees: StoneMcYT
 
 ---
 
-Country name :
+Country name/Category (required) :
 City/region :
-Warp Name :
-Warp :
+Warp Name (required) :
+Warp (Required) :
 tpll cords :
