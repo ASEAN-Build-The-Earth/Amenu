@@ -3685,11 +3685,11 @@ panels:
         material: STAINED_GLASS_PANE
         ID: 7
 ###Malaysia 
-  amenu_My:
+  bmenu_My:
     perm: default
     rows: '6'
     title: 'Malaysia'
-    command: amenu_My
+    command: bmenu_My
     empty: STAINED_GLASS_PANE
     emptyID: '15' 
     item:      
@@ -3825,7 +3825,7 @@ panels:
         ID: 0
         name: '&eEastern Malaysia'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
       '40':
         material: STAINED_GLASS_PANE
@@ -3835,7 +3835,7 @@ panels:
         ID: 0
         name: '&eWestern Malaysia'
         redirect:
-          panel: amenu_My_west
+          panel: bmenu_My_west
           force: false
       '42':
         material: STAINED_GLASS_PANE
@@ -3850,7 +3850,7 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu
+          panel: bmenu
           force: false
       '46':
         material: STAINED_GLASS_PANE
@@ -3876,11 +3876,11 @@ panels:
       '53':
         material: STAINED_GLASS_PANE
         ID: 7
-  amenu_My_west:
+  bmenu_My_west:
     perm: default
     rows: '6'
     title: 'Western Malaysia'
-    command: amenu_My_west
+    command: bmenu_My_west
     empty: STAINED_GLASS_PANE
     emptyID: '15' 
     item:   
@@ -4001,7 +4001,7 @@ panels:
         ID: 0
         name: '&bPenang'
         redirect:
-          panel: amenu_My_west_penang
+          panel: bmenu_My_west_penang
           force: false  
       '35':
         material: STAINED_GLASS_PANE
@@ -4032,7 +4032,7 @@ panels:
         ID: 0
         name: '&bSelangor'
         redirect:
-          panel: amenu_My_west_Selangor
+          panel: bmenu_My_west_Selangor
           force: false  
       '42':
         material: STAINED_GLASS_PANE
@@ -4047,7 +4047,7 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My
+          panel: bmenu_My
           force: false
       '46':
         material: STAINED_GLASS_PANE
@@ -4073,11 +4073,11 @@ panels:
       '53':
         material: STAINED_GLASS_PANE
         ID: 7
-  amenu_My_east:
+  bmenu_My_east:
     perm: default
     rows: '6'
     title: 'Eastern Malaysia'
-    command: amenu_My_east
+    command: bmenu_My_east
     empty: STAINED_GLASS_PANE
     emptyID: '15' 
     item:   
@@ -4173,7 +4173,7 @@ panels:
         ID: 0
         name: '&bSabah'
         redirect:
-          panel: amenu_My_east_Sabah
+          panel: bmenu_My_east_Sabah
           force: false 
       '30': 
         material: STAINED_GLASS_PANE
@@ -4183,7 +4183,7 @@ panels:
         ID: 0
         name: '&bSarwak'
         redirect:
-          panel: amenu_My_east_Sarawak
+          panel: bmenu_My_east_Sarawak
           force: false 
       '32':
         material: STAINED_GLASS_PANE
@@ -4228,7 +4228,7 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My
+          panel: bmenu_My
           force: false
       '46':
         material: STAINED_GLASS_PANE
@@ -4255,11 +4255,11 @@ panels:
         material: STAINED_GLASS_PANE
         ID: 7
 #EAST CITY PANELS 
-  amenu_My_east_Sabah: 
+  bmenu_My_east_Sabah: 
     perm: default
     rows: '3'
     title: 'Malaysia - East - Sabah'
-    command: amenu_My_east_Sabah 
+    command: bmenu_My_east_Sabah 
     empty: STAINED_GLASS_PANE
     emptyID: '4'
     item:   
@@ -4350,13 +4350,13 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
-  amenu_My_east_Sarawak: 
+  bmenu_My_east_Sarawak: 
     perm: default
     rows: '3'
     title: 'Malaysia - East - Sarwak'
-    command: amenu_My_east_Sarawak 
+    command: bmenu_My_east_Sarawak 
     empty: STAINED_GLASS_PANE
     emptyID: '4'
     item:   
@@ -4450,15 +4450,15 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
 #WEST
 #-Western Malyasia+perak stonk it pog
-  amenu_My_west_Perak: 
+  bmenu_My_west_Perak: 
     perm: default
     rows: '3'
     title: 'Malaysia - West - Perak'
-    command: amenu_My_east_Perak
+    command: bmenu_My_east_Perak
     empty: STAINED_GLASS_PANE
     emptyID: '4'
     item:   
@@ -4549,14 +4549,14 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
 # -Western Malaysia +Penang 
-  amenu_My_west_penang:
+  bmenu_My_west_penang:
     perm: default
     rows: '3'
     title: 'Malaysia - West - Perak'
-    command: amenu_My_east_Perak
+    command: bmenu_My_east_Perak
     empty: STAINED_GLASS_PANE
     emptyID: '4'
     item: 
@@ -4651,15 +4651,15 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
 #
 #-Western Malaysia +Selangor
-  amenu_My_west_Selangor:
+  bmenu_My_west_Selangor:
     perm: default
     rows: '3'
     title: 'Malaysia - West - Selangor'
-    command: amenu_My_east_Perak
+    command: bmenu_My_east_Perak
     empty: STAINED_GLASS_PANE
     emptyID: '4'
     item: 
@@ -4749,5 +4749,5 @@ panels:
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
         name: '&cBack'
         redirect:
-          panel: amenu_My_east
+          panel: bmenu_My_east
           force: false
