@@ -8,7 +8,11 @@ assignees: StoneMcYT
 ---
 
 Country name/Category (required eg Singapore, islands):
+
 City/region (eg east, west, central) :
-Warp Name (required to be displayed in amenu) :
+
+Warp Name (To be displayed in amenu) :
+
 Warp (The warp command eg warp my,Putrajaya) :
+
 tpll cords (The cords when running /tpll):
