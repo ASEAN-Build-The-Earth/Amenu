@@ -116,7 +116,7 @@ panels:
         lore:
         - '&7(Warps)'
         redirect:
-          panel: bmenu_id
+          panel: bmenu_Id
           force: false
       '41':
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
@@ -124,7 +124,7 @@ panels:
         lore:
         - '&7(Warps)'
         redirect:
-          panel: bmenu_kh
+          panel: bmenu_Ca
           force: false
       '2':
         material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
